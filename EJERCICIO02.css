@@ -1,0 +1,22 @@
+nav ul {
+               background-color: rebeccapurple;
+               width: 40; 
+               list-style-type: none;
+               margin-left: 20px;
+               margin-right: 1200px;      
+}
+
+nav li {
+         display: inline-flex;
+
+}
+
+nav a {
+             color: white;
+             text-decoration: none;
+             margin: 20px;
+             padding: 20px;
+}
+
+
+

@@ -1,0 +1,38 @@
+
+.container {
+         background-color: #bc1414;
+         border: 5px outset #1098ad;
+         width: 600px;
+         height: 900px;
+        margin-left: 90px;
+        float: left;
+        
+
+
+}
+
+.ClaseG{
+
+float: right;
+margin-left: 15px;
+margin-bottom: 15px;
+padding-right: 50px;
+float: right;
+
+
+}
+
+.Alfonsito{
+    background-color: #b73a3a;
+    border: 5px outset #1098ad;
+    width: 200px;
+    height: 200px;
+    margin-top:40px;
+    margin-right: 530px;
+    float: right;
+
+}
+
+
+
+
