@@ -1,0 +1,52 @@
+
+
+section {
+    display: flex;
+    background-color: #0C0A0A;
+}
+
+article {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-principal{
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    height: 360px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Price{
+       color: rgb(255, 255, 255);
+       font-size: x-large;
+}
+
+.Simple{
+
+    color: rgb(253, 253, 253);
+
+}
+
+.attributes{
+    color: rgb(255, 255, 255);
+    font-size:medium;
+}
+
+.Description{
+    color: #fafafa;
+}
+
+.video {
+    align-content: space-between;
+}
+
+.introducing {
+    padding: 70px;
+}

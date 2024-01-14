@@ -1,0 +1,17 @@
+section { 
+    display: flex;
+    flex-flow:row-reverse wrap ;
+    justify-content: center;
+    align-content: flex-end;
+    
+  
+}
+
+article {
+  background: aqua;
+  margin: 10px;
+  padding: 10px;
+  flex: 100px
+  
+}
+
