@@ -1,0 +1,17 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: deepskyblue;
+    position: relative;
+    left: 0;
+    transition: all 1s;
+}
+
+.caja{    width: 500px;
+         height: 300px;
+        background: black;
+    }
+
+.caja:hover .box {
+  left: 200px;
+}
