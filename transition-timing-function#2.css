@@ -1,0 +1,46 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    background: deepskyblue;
+    position: relative;
+    transition-property: transform;
+    transition-duration: 1s;
+    /*transition-property: transform background; sirve para decir que propiedad va a tener una transicion*/
+    /*transition-duration: 5s; cuanto tiempo durara la transicion*/
+    /*transition-delay: 0s; Nos dira cuanto tiempo durara la animacion en ejecutarse */
+    /*transition-timing-function: linear;*/
+    
+}
+
+.img{
+    transition-property: transform;
+    transition-duration: 1s;
+    width: 170px;
+    display: block;
+   
+}
+
+.one{
+    transition-timing-function: ease;
+}
+
+.two{
+    transition-timing-function: ease-in;
+}
+
+.three{
+    transition-timing-function: ease-out;
+}
+
+.four{
+    transition-timing-function: ease-in-out;
+}
+
+.five{
+    transition-timing-function: linear;
+}
+body:hover .img {
+    transform: translate(400px);
+    
+}
