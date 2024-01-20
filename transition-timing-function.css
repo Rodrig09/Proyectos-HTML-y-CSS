@@ -1,0 +1,24 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    background: deepskyblue;
+    position: relative;
+    transition-property: transform;
+    /*transition-property: transform background; sirve para decir que propiedad va a tener una transicion*/
+    transition-duration: 10s;
+    /*transition-duration: 5s; cuanto tiempo durara la transicion*/
+    /*transition-delay: 0s; Nos dira cuanto tiempo durara la animacion en ejecutarse */
+    transition-timing-function: linear;
+    
+}
+
+.caja{    width: 500px; 
+         height: 300px;
+        background: black;
+    }
+
+.caja:hover .box {
+    transform: scale(1.2);
+    
+}
